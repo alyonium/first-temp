@@ -151,6 +151,7 @@ body {
     outline: none;
     border: #998675;
     margin-top: 3vh;
+    font-family: "Raleway ExtraBold", serif;
 }
 
 .slide1__button:hover{
@@ -219,49 +220,136 @@ body {
     font-size: 22px;
 }
 
-.slide2__block__text__p{
+.slide2__block__text__p {
     font-family: "Montserrat Light", serif;
     font-size: 14px;
 }
 
-.slide3{
+.slide3 {
     background-color: #fbfaf8;
-    border: 2px solid green;
 }
 
-.slide3-wrapper{
+.slide3-wrapper {
     margin-top: 80px;
-    border: 2px solid orange;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.slide3__text{
+.slide3__text {
     width: 770px;
+    margin-bottom: 25px;
 }
 
-.slide3__text__h3{
+.slide3__text__h3 {
     font-family: "Raleway SemiBold", serif;
     font-size: 30px;
+    color: #555555;
 }
 
-.slide3__text__p{
+.slide3__text__p {
     font-family: "Montserrat Light", serif;
     font-size: 16px;
-
 }
 
-.slide3__img{
+.slide3__img {
+    display: flex;
+    height: 480px;
     position: relative;
+    align-items: flex-end;
 }
 
-.slide3__img__1{
-     background: url(../img/slide3_center.jpg);
-     height: 485px;
+.slide3__img_1 {
+    background: url(../img/slide3_left.jpg) no-repeat;
+    height: 400px;
+    width: 770px;
+    position: relative;
+    right: 230px;
+    z-index: 1;
+}
+
+.slide3__img_3 {
+    background: url(../img/slide3_center.jpg) no-repeat;
+    height: 480px;
+    width: 770px;
     position: absolute;
+    z-index: 3;
+}
+
+.slide3__img_2 {
+    background: url(../img/slide3_right.jpg) no-repeat;
+    height: 400px;
+    width: 770px;
+    position: absolute;
+    left: 230px;
+    z-index: 2;
+}
+
+.slide4{
+    background: url(../img/back_grad.jpg) no-repeat;
+    background-size: cover;
+}
+
+.slide4-wrapper{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 1660px;
+}
+
+.slide4__text {
+    margin-top: 0;
+}
+
+.slide4__text__h3 {
+    font-family: "Raleway Regular", serif;
+    font-size: 28px;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.slide4__text__h3_span {
+    color: #c7b299;
+}
+
+.slide4__text__p{
+    margin-top: 0;
+    color: #615855;
+    font-family: "Montserrat Light", serif;
+    font-size: 18px;
+}
+
+.slide4__button{
+    font-weight: 700;
+    font-size: 14px;
+    width: 170px;
+    height: 53px;
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3px;
+    background: #998675;
+    box-shadow: inset 0 -3px #736357;
+    letter-spacing: 0.04em;
+    outline: none;
+    border: #998675;
+    font-family: "Raleway ExtraBold", serif;
+}
+
+.slide4__button:hover{
+    background: #736357;
+    box-shadow: inset 0 -3px #635850;
+    cursor: pointer;
+}
+
+.slide4__button:active{
+    background: #635850;
+    box-shadow: inset 0 -3px #574d46;
+    cursor: pointer;
 }
 
 @media (max-width: 1600px) {
