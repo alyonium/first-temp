@@ -79,7 +79,7 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: "Raleway Regular" , serif;
+    font-family: "Raleway Regular" , sans-sans-serif;
     font-size: 34px;
     color: #fff;
     padding-right: 100px;
@@ -94,7 +94,7 @@ body {
 
 .header__nav__a{
     text-decoration: none;
-    font-family: "Montserrat light", serif;
+    font-family: "Montserrat light", sans-sans-serif;
     font-size: 14px;
     color: #fff;
 }
@@ -147,7 +147,7 @@ body {
 }
 
 .slide1__names__h1{
-    font-family: "Raleway ExtraBold", serif;
+    font-family: "Raleway ExtraBold", sans-serif;
     font-size: 52px;
     color: #fff;
     margin: 0;
@@ -156,7 +156,7 @@ body {
 
 .slide1__names__h2{
     font-weight: 500;
-    font-family: "Raleway Medium", serif;
+    font-family: "Raleway Medium", sans-serif;
     font-size: 36px;
     color: #fff;
     margin: 0;
@@ -164,7 +164,7 @@ body {
 }
 
 .slide1__names__p{
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 16px;
     color: #fff;
     text-align: center;
@@ -186,7 +186,7 @@ body {
     outline: none;
     border: #998675;
     margin-top: 3vh;
-    font-family: "Raleway ExtraBold", serif;
+    font-family: "Raleway ExtraBold", sans-serif;
 }
 
 .slide1__button:hover{
@@ -251,12 +251,12 @@ body {
 
 .slide2__block__text__h3{
     height: 30px;
-    font-family: "Raleway SemiBold", serif;
+    font-family: "Raleway SemiBold", sans-serif;
     font-size: 22px;
 }
 
 .slide2__block__text__p {
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 14px;
 }
 
@@ -278,13 +278,13 @@ body {
 }
 
 .slide3__text__h3 {
-    font-family: "Raleway SemiBold", serif;
+    font-family: "Raleway SemiBold", sans-serif;
     font-size: 30px;
     color: #555555;
 }
 
 .slide3__text__p {
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 16px;
 }
 
@@ -340,7 +340,7 @@ body {
 }
 
 .slide4__text__h3 {
-    font-family: "Raleway Regular", serif;
+    font-family: "Raleway Regular", sans-serif;
     font-size: 28px;
     color: #fff;
     margin-bottom: 0;
@@ -353,7 +353,7 @@ body {
 .slide4__text__p{
     margin-top: 0;
     color: #615855;
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 18px;
 }
 
@@ -372,7 +372,7 @@ body {
     letter-spacing: 0.04em;
     outline: none;
     border: #998675;
-    font-family: "Raleway ExtraBold", serif;
+    font-family: "Raleway ExtraBold", sans-serif;
 }
 
 .slide4__button:hover{
@@ -405,14 +405,14 @@ body {
 }
 
 .slide5__text__h3{
-    font-family: "Raleway Semibold", serif;
+    font-family: "Raleway Semibold", sans-serif;
     font-size: 30px;
     color: #555555;
     margin-top: 80px;
 }
 
 .slide5__text__p{
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     margin-top: 10px;
     font-size: 16px;
 }
@@ -425,7 +425,7 @@ body {
 }
 
 .slide5__nav__button {
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 14px;
     text-decoration: none;
     border: 1px solid #ebebeb;
@@ -511,13 +511,13 @@ body {
 }
 
 .slide5__pic__text__h3{
-    font-family: "Raleway Medium", serif;
+    font-family: "Raleway Medium", sans-serif;
     font-size: 20px;
     color: #c7b299;
 }
 
 .slide5__pic__text__p{
-    font-family: "Montserrat Light", serif;
+    font-family: "Montserrat Light", sans-serif;
     font-size: 14px;
     color: #d1d1d1;
 }
@@ -537,7 +537,7 @@ body {
     letter-spacing: 0.04em;
     outline: none;
     border: #998675;
-    font-family: "Raleway ExtraBold", serif;
+    font-family: "Raleway ExtraBold", sans-serif;
     margin: 40px 0 80px 0;
 }
 
