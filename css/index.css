@@ -1,34 +1,34 @@
 @font-face {
     font-family: 'Raleway';
-    src: local('../font/Raleway Regular'), local('../font/Raleway-Regular'), url('../font/Raleway-Regular.woff') format('woff'), url('../font/Raleway-Regular.ttf') format('truetype');
+    src: local('../font/Raleway-Regular'), local('../font/Raleway-Regular'), url('../font/Raleway-Regular.woff') format('woff'), url('../font/Raleway-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: local('../font/Raleway Medium'), local('../font/Raleway-Medium'), url('../font/Raleway-Medium.woff') format('woff'), url('../font/Raleway-Medium.ttf') format('truetype');
+    src: local('../font/Raleway-Medium'), local('../font/Raleway-Medium'), url('../font/Raleway-Medium.woff') format('woff'), url('../font/Raleway-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: local('../font/Raleway SemiBold'), local('../font/Raleway-SemiBold'), url('../font/Raleway-SemiBold.woff') format('woff'), url('../font/Raleway-SemiBold.ttf') format('truetype');
+    src: local('../font/Raleway-SemiBold'), local('../font/Raleway-SemiBold'), url('../font/Raleway-SemiBold.woff') format('woff'), url('../font/Raleway-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Raleway';
-    src: local('../font/Raleway ExtraBold'), local('../font/Raleway-ExtraBold'), url('../font/Raleway-ExtraBold.woff') format('woff'), url('../font/Raleway-ExtraBold.ttf') format('truetype');
+    src: local('../font/Raleway-ExtraBold'), local('../font/Raleway-ExtraBold'), url('../font/Raleway-ExtraBold.woff') format('woff'), url('../font/Raleway-ExtraBold.ttf') format('truetype');
     font-weight: 800;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Montserrat';
-    src: local('../font/Montserrat Light'), local('../font/Montserrat-Light'), url('../font/Montserrat-Light.woff') format('woff'), url('../font/Montserrat-Light.ttf') format('truetype');
+    src: local('../font/Montserrat-Light'), local('../font/Montserrat-Light'), url('../font/Montserrat-Light.woff') format('woff'), url('../font/Montserrat-Light.ttf') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -456,7 +456,6 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    height: 710px;
 }
 
 .slide5__pic-wrapper{
@@ -554,6 +553,7 @@ body {
     cursor: pointer;
 }
 
+
 @media (max-width: 1600px) {
     .slide1-middle{
         width: 1400px;
@@ -566,6 +566,8 @@ body {
     .slide1__names{
         width: 900px;
     }
+
+
 }
 
 @media (max-width: 1450px) {
@@ -639,6 +641,10 @@ body {
     .slide4-wrapper{
         width: 1000px;
     }
+
+    .slide5-wrapper{
+        width: 1000px;
+    }
 }
 
 @media (max-width: 1050px) {
@@ -676,6 +682,10 @@ body {
     }
 
     .slide4-wrapper{
+        width: 800px;
+    }
+
+    .slide5-wrapper{
         width: 800px;
     }
 }
@@ -765,6 +775,19 @@ body {
     }
 
     .slide4__button{
+        display: none;
+    }
+
+    .slide5-wrapper{
+
+    }
+
+    .slide5__text{
+        margin-bottom: 30px;
+        width: 578px;
+    }
+
+    .slide5__nav{
         display: none;
     }
 }
@@ -885,6 +908,10 @@ body {
     .slide4__text__p{
         display: none;
     }
+
+    .slide5__text{
+        width: 420px;
+    }
 }
 
 @media (max-width: 420px) {
@@ -973,6 +1000,14 @@ body {
     .slide4__text__h3{
         margin: 0;
     }
+
+    .slide5__text__p{
+        display: none;
+    }
+
+    .slide5__pic-wrapper{
+        width: 350px;
+    }
 }
 
 @media (max-width: 350px) {
@@ -1032,6 +1067,14 @@ body {
 
     .slide3__img_3{
         display: none;
+    }
+
+    .slide5-wrapper{
+        width: 320px;
+    }
+
+    .slide5__pic-wrapper{
+        width: 315px;
     }
 
 }
