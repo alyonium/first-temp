@@ -79,7 +79,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    font-family: "Raleway Regular" , sans-sans-serif;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 400;
     font-size: 34px;
     color: #fff;
     padding-right: 100px;
@@ -94,7 +95,8 @@ body {
 
 .header__nav__a{
     text-decoration: none;
-    font-family: "Montserrat light", sans-sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     color: #fff;
 }
@@ -147,7 +149,8 @@ body {
 }
 
 .slide1__names__h1{
-    font-family: "Raleway ExtraBold", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
     font-size: 52px;
     color: #fff;
     margin: 0;
@@ -156,7 +159,8 @@ body {
 
 .slide1__names__h2{
     font-weight: 500;
-    font-family: "Raleway Medium", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 36px;
     color: #fff;
     margin: 0;
@@ -164,14 +168,15 @@ body {
 }
 
 .slide1__names__p{
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 16px;
     color: #fff;
     text-align: center;
 }
 
 .slide1__button{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 14px;
     width: 170px;
     height: 53px;
@@ -186,7 +191,7 @@ body {
     outline: none;
     border: #998675;
     margin-top: 3vh;
-    font-family: "Raleway ExtraBold", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .slide1__button:hover{
@@ -251,12 +256,14 @@ body {
 
 .slide2__block__text__h3{
     height: 30px;
-    font-family: "Raleway SemiBold", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 22px;
 }
 
 .slide2__block__text__p {
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -278,13 +285,15 @@ body {
 }
 
 .slide3__text__h3 {
-    font-family: "Raleway SemiBold", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 30px;
     color: #555555;
 }
 
 .slide3__text__p {
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 16px;
 }
 
@@ -340,7 +349,8 @@ body {
 }
 
 .slide4__text__h3 {
-    font-family: "Raleway Regular", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
     font-size: 28px;
     color: #fff;
     margin-bottom: 0;
@@ -353,12 +363,13 @@ body {
 .slide4__text__p{
     margin-top: 0;
     color: #615855;
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat' , sans-serif;
+    font-weight: 300;
     font-size: 18px;
 }
 
 .slide4__button{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 14px;
     width: 170px;
     height: 53px;
@@ -372,7 +383,7 @@ body {
     letter-spacing: 0.04em;
     outline: none;
     border: #998675;
-    font-family: "Raleway ExtraBold", sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .slide4__button:hover{
@@ -405,14 +416,16 @@ body {
 }
 
 .slide5__text__h3{
-    font-family: "Raleway Semibold", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
     font-size: 30px;
     color: #555555;
     margin-top: 80px;
 }
 
 .slide5__text__p{
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     margin-top: 10px;
     font-size: 16px;
 }
@@ -425,7 +438,8 @@ body {
 }
 
 .slide5__nav__button {
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     text-decoration: none;
     border: 1px solid #ebebeb;
@@ -511,19 +525,21 @@ body {
 }
 
 .slide5__pic__text__h3{
-    font-family: "Raleway Medium", sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
     font-size: 20px;
     color: #c7b299;
 }
 
 .slide5__pic__text__p{
-    font-family: "Montserrat Light", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 14px;
     color: #d1d1d1;
 }
 
 .slide5__button{
-    font-weight: 700;
+    font-weight: 800;
     font-size: 14px;
     width: 170px;
     height: 53px;
@@ -537,7 +553,7 @@ body {
     letter-spacing: 0.04em;
     outline: none;
     border: #998675;
-    font-family: "Raleway ExtraBold", sans-serif;
+    font-family: 'Raleway', sans-serif;
     margin: 40px 0 80px 0;
 }
 
