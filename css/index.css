@@ -207,6 +207,7 @@ body {
 }
 
 .slide{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,6 +215,7 @@ body {
 
 .slide-wrapper{
     max-width: 1200px;
+    width: 100%;
 }
 
 .slide2-wrapper{
@@ -341,7 +343,6 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 1660px;
 }
 
 .slide4__text {
@@ -569,6 +570,12 @@ body {
     cursor: pointer;
 }
 
+.slide6{
+}
+
+.slide6__video{
+    width: 100%;
+}
 
 @media (max-width: 1600px) {
     .slide1-middle{
@@ -582,8 +589,6 @@ body {
     .slide1__names{
         width: 900px;
     }
-
-
 }
 
 @media (max-width: 1450px) {
@@ -655,11 +660,11 @@ body {
     }
 
     .slide4-wrapper{
-        width: 1000px;
+        max-width: 1000px;
     }
 
     .slide5-wrapper{
-        width: 1000px;
+        max-width: 1000px;
     }
 }
 
@@ -668,6 +673,9 @@ body {
         width: 800px;
     }
 
+    .slide-wrapper{
+        max-width: 800px;
+    }
     .slide1-middle{
         width: 800px;
     }
@@ -728,6 +736,10 @@ body {
         height: 20px;
     }
 
+    .slide-wrapper{
+        max-width: 630px;
+    }
+
     .slide1-middle{
         width: 600px;
     }
@@ -745,7 +757,7 @@ body {
     }
 
     .slide2__block{
-        width: 320px;
+        width: 300px;
     }
 
     .slide2__block__text__p{
@@ -795,7 +807,7 @@ body {
     }
 
     .slide5-wrapper{
-
+        max-width: 850px; /*это специально, я хочу чтобы блок был шире основного, чтобы хотя бы при первом показе на 850рх были 2 картинки в строке, а не одна*/
     }
 
     .slide5__text{
@@ -813,6 +825,9 @@ body {
         width: 400px;
     }
 
+    .slide-wrapper{
+        max-width: 420px;
+    }
     .header__logo{
         width: 400px;
     }
