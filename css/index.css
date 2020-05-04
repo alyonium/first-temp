@@ -53,6 +53,7 @@
     font-weight: 400;
     font-style: normal;
 }
+
 html{
     overflow-x: hidden;
 }
@@ -901,8 +902,10 @@ body {
 
 .slide11-wrapper{
     width: 100%;
+    height: inherit;
     display: flex;
-    border: 1px solid green;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .slide11__logo-column{
@@ -913,7 +916,6 @@ body {
 
 .slide11__logo-column__img{
     position: absolute;
-
 }
 
 .slide11__logo-column__h2{
@@ -934,14 +936,97 @@ body {
     color: #555;
     margin-top: 80px;
     margin-bottom: 30px;
+    line-height: 1.8em;
 }
 
 .slide11__logo-column__span{
-    border: 1px solid yellow;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #fff;
+}
+.slide11__column{
+    width: 270px;
+    height: 340px;
+}
+
+.slide11__column__h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.slide11__column__block{
+    margin-top: 20px;
+}
+
+.slide11__column__block__a{
+    color: #059ec7;
+    text-decoration: none;
+}
+
+.slide11__column__block__a_2{
+    color: #8d8d8d;
+    text-decoration: none;
+}
+
+.slide11__column__span{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #363636;
+}
+
+.slide11__column__p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #555;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.slide11__column_2__p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #555;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.slide11__column__block_2{
+    padding-top: 20px;
+    border-top: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+}
+
+.slide11__column_2__block{
+    padding-bottom: 20px;
+
+}
+
+.slide11__column_2__block_2 {
+    padding-bottom: 20px;
+    border-top: 1px solid #363636;
+    border-bottom: 1px solid #363636;
+}
+
+.slide11__column__pic{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 210px;
+    width: 270px;
+}
+
+.slide11__column__img{
+    height: 100px;
+    width: 130px;
 }
 
 @media (max-width: 1600px) {
