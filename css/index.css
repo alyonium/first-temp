@@ -1029,6 +1029,36 @@ body {
     width: 130px;
 }
 
+.footer{
+    background-color: #111;
+    height: 110px;
+}
+
+.footer-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__nav, .footer__div{
+    color: #555;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.footer__nav__span{
+    color: #959595;
+}
+
+.footer__nav__a{
+    text-decoration: none;
+    color: #555;
+}
+
+.footer__nav__a:hover{
+    color: #fff;
+}
 @media (max-width: 1600px) {
     .slide1-middle{
         width: 1400px;
