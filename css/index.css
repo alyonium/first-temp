@@ -304,7 +304,7 @@ body {
 }
 
 
-.slide2__block__text:hover:before{
+.slide2__block:hover .slide2__block__text:before{
     background-color: #c7b299;
 }
 
@@ -525,6 +525,10 @@ body {
     flex-direction: column;
     position: relative;
     margin:20px 0;
+}
+
+.slide5__pic-wrapper:hover{
+    cursor: pointer;
 }
 
 .slide5__pic-wrapper:hover .slide5__pic__triangle{
