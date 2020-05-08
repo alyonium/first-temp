@@ -474,7 +474,8 @@ body {
 
 .slide5__nav {
     width: 600px;
-    margin: 40px 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -514,7 +515,7 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
     align-content: space-between;
-    height: 91vh;
+    height: 100%;
 }
 
 .slide5__pic-wrapper{
@@ -523,6 +524,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
+    margin:20px 0;
 }
 
 .slide5__pic-wrapper:hover .slide5__pic__triangle{
@@ -540,8 +542,6 @@ body {
 .slide5__pic-wrapper:hover .slide5__pic__text__p{
     color: #c7b299;
 }
-
-
 
 .slide5__pic_1__img{
     background: url(../img/slide5_1.jpg) no-repeat;
@@ -1419,7 +1419,7 @@ body {
     }
 
     .slide5__text{
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         width: 578px;
     }
 
