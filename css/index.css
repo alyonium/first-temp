@@ -1,5 +1,5 @@
 @font-face {
-    font-family:
+    font-family: 'Raleway';
     src: local('../font/Raleway-Regular'), local('../font/Raleway-Regular'), url('../font/Raleway-Regular.woff') format('woff'), url('../font/Raleway-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
@@ -188,7 +188,7 @@ body {
     text-align: center;
 }
 
-.slide1__button{
+.slide__button{
     font-weight: 800;
     font-size: 14px;
     width: 170px;
@@ -203,6 +203,9 @@ body {
     letter-spacing: 0.04em;
     outline: none;
     border: #998675;
+}
+
+.slide1__button{
     margin-top: 3vh;
     font-family: 'Raleway', sans-serif;
 }
@@ -402,20 +405,6 @@ body {
 }
 
 .slide4__button{
-    font-weight: 800;
-    font-size: 14px;
-    width: 170px;
-    height: 53px;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 3px;
-    background: #998675;
-    box-shadow: inset 0 -3px #736357;
-    letter-spacing: 0.04em;
-    outline: none;
-    border: #998675;
     font-family: 'Raleway', sans-serif;
 }
 
@@ -599,20 +588,6 @@ body {
 }
 
 .slide5__button{
-    font-weight: 800;
-    font-size: 14px;
-    width: 170px;
-    height: 53px;
-    text-transform: uppercase;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 3px;
-    background: #998675;
-    box-shadow: inset 0 -3px #736357;
-    letter-spacing: 0.04em;
-    outline: none;
-    border: #998675;
     font-family: 'Raleway', sans-serif;
     margin: 40px 0 80px 0;
 }
