@@ -1363,25 +1363,7 @@ body {
     }
 
     .header__nav{
-        flex-direction: column;
-        justify-content: center;
-        height: 100vh;
-        width: 30vw;
-        position: fixed;
-        right: -30vw;
-    }
-
-    .burger-menu{
-        display: block;
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        top: 20px;
-        right: 10px;
-    }
-
-    .header__nav.active {
-
+        display: none;
     }
 
     .header__icon__img{
